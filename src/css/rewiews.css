@@ -63,6 +63,8 @@
 .rew-list-desc {
   color: rgba(4, 3, 6, 0.4);
   text-align: center;
+  line-height: initial;
+  letter-spacing: -0.32px;
 }
 
 @media (min-width: 768px) {
