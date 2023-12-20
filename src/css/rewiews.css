@@ -28,12 +28,6 @@
   opacity: 0.4;
 }
 
-.container {
-  max-width: 320px;
-  padding: 0 20px;
-  margin: auto;
-}
-
 .rew-list {
   display: flex;
   height: 282px;
