@@ -16,7 +16,9 @@
   color: #fbfbfb;
   text-align: center;
   font-size: 28px;
-  letter-spacing: -0.56px;
+  line-height: 1em;
+  letter-spacing: -0.02em;
+  font-weight: 500;
 }
 
 .rew-title-desc {
