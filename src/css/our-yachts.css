@@ -90,6 +90,10 @@ ol {
     padding-right: 32px;
   }
 
+  .benetti-yacht{
+    display: none;
+  }
+
   .section {
     padding-top: 150px;
     padding-bottom: 150px;
