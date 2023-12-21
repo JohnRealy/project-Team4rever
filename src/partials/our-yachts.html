@@ -10,7 +10,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="./css/styles.css" />
+  <link rel="stylesheet" href="./our-yachts.css" />
 </head>
 <body>
   <section class="our-yachts-section section" id="our-yachts-section">
@@ -57,7 +57,20 @@
           </div>
         </li>
         <li class="our-yachts-section-list-item benetti-yacht">
-          <img src="" alt="benetti-yacht" width="302" height="240" />
+          <picture>
+            <source srcset="../img/our-yachts/desktop_1440/belle-anna@1x.jpg 1x,
+            ../img/our-yachts/desktop_1440/belle-anna@2x.jpg 2x" media="(min-width:1440px)">
+            <source srcset="
+            ../img/our-yachts/desktop-1280/belle-anna@2x.jpg 2x," media="(min-width:1280px)">
+            <source src="../img/our-yachts/tablet/benetti@1x.jpg 1x,
+            ../img/our-yachts/tablet/benetti@2x.jpg 2x" media="(min-width:768px)">
+            <source srcset="../img/our-yachts/mob/arrow@1x.jpg 1x,
+            ../img/our-yachts/mob/arrow@2x.jpg 2x" media="(max-width:767px)">
+            <img src="" alt="benetti-yacht"/>
+
+          </picture>
+          
+
           <div class="yacht-container">
             <div class="yacht-name-container">
               <h3 class="yacht-name">BENETTI OASIS 40M BO122</h3>
@@ -82,6 +95,9 @@
         <li class="our-yachts-section-list-item belle-anna-yacht">
           <img src="" alt="belle-anna-yacht" width="302" height="240" />
           <div class="yacht-container">
+            <picture>
+
+            </picture>
             <h3 class="yacht-name">BELLE ANNA</h3>
             <p class="yacht-type">LUXURY YACHTS</p>
             <ul class="yacht-parameters-list">
