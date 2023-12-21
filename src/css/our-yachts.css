@@ -204,6 +204,7 @@ letter-spacing: -0.02em;
    
 }
 
+                         /******** tablet ********/
 
 @media screen and (min-width: 768px) {
   .container {
@@ -212,7 +213,7 @@ letter-spacing: -0.02em;
     padding-right: 32px;
   }
 
-  .benetti-yacht{
+  .belle-anna-yacht{
     display: none;
   }
 
@@ -220,7 +221,41 @@ letter-spacing: -0.02em;
     padding-top: 150px;
     padding-bottom: 150px;
   }
+
+  .our-yachts-section-list{
+    display: flex;
+    gap: 32px;
+  }
+
+  .our-yachts-section-title{
+  color: #FBFBFB;
+  text-align: center;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  max-width: 645px;
+  margin-bottom: 75px;
+  }
+.our-yachts-section-list-item{
+  background: #FBFBFB;
+  padding: 16px 16px 32px 16px;
+  border-radius: 24px;
+  width: calc((100% - 32px) / 2);
 }
+
+.yacht-img-thumb{
+  margin-bottom: 32px;
+}
+  
+}
+
+
+
+
+                         /************* desktop *************/
 
 @media screen and (min-width: 1280px) {
   .container {
