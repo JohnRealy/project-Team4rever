@@ -80,6 +80,19 @@ ol {
     display: none;
   }
 
+ .our-yachts-section-title {
+   color: #fbfbfb;
+   text-align: center;
+   font-size: 28px;
+   font-weight: 500;
+   line-height: 1;
+   letter-spacing: -0.02em;
+   display: inline-block;
+   max-width: 319px;
+   margin: 0 auto;
+   margin-bottom: 40px;
+ }
+
    .our-yachts-section-list-item {
     background-color: #fbfbfb;
     max-width: 334px;
@@ -88,41 +101,41 @@ ol {
     margin: 0 auto;
     }
 
-    .yacht-parameters-list-item{
-      color: #040306;
-      font-family: Inter;
-      font-size: 14px;
-      font-style: normal;
-      font-weight: 400;
-      line-height: 1.7;
-      letter-spacing: 0.03em;
-      text-transform: uppercase;
-      opacity: 0.4;
-    }
-    .yacht-parameters-value-list-item{
-      color: #040306;
-      font-family: Inter;
-      font-size: 14px;
-      font-style: normal;
-      font-weight: 400;
-      line-height: 1.7;
-      letter-spacing: 0.03em;
-    }
+ .yacht-parameters-list-item {
+   color: #040306;
+   font-family: Inter;
+   font-size: 14px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 1.7;
+   letter-spacing: 0.03em;
+   text-transform: uppercase;
+   opacity: 0.4;
+ }
+ .yacht-parameters-value-list-item {
+   color: #040306;
+   font-family: Inter;
+   font-size: 14px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 1.7;
+   letter-spacing: 0.03em;
+ }
 
-    .yacht-name {
-      color: #1b414b;
-      font-size: 14px;
-      font-weight: 500;
-      line-height: 1.18;
-      letter-spacing: -0.045em;
-      text-transform: uppercase;
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      max-width: 270px;
-      position: relative;
-      margin-bottom: 16px;
-    }
+ .yacht-name {
+   color: #1b414b;
+   font-size: 14px;
+   font-weight: 500;
+   line-height: 1.18;
+   letter-spacing: -0.045em;
+   text-transform: uppercase;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   max-width: 270px;
+   position: relative;
+   margin-bottom: 16px;
+ }
 
 .yacht-type {
   color: #040306;
@@ -185,18 +198,7 @@ letter-spacing: -0.02em;
 
 
 
-.our-yachts-section-title {
-  color: #fbfbfb;
-  text-align: center;
-  font-size: 28px;
-  font-weight: 500;
-  line-height: 1;
-  letter-spacing: -0.02em;
-  display: inline-block;
-  max-width: 319px;
-  margin: 0 auto;
-  margin-bottom: 40px;
-}
+
 .our-yachts-section-list {
   display: flex;
   margin: 0 auto;
