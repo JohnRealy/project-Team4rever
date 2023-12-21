@@ -1,26 +1,32 @@
 /* ============== MOBILE FOOTER STYLES <375px============== */
 
 @media screen and (max-width: 375px) {
+  .container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
   .footer-container {
     align-items: baseline;
     display: flex;
     flex-direction: column;
-    max-width: 355px;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 24px 24px 0px 0px;
-    background: #1b414b;
+    min-width: 320px;
   }
-
-  .footer-second-wrapper {
+  .footer-first-wrapper {
+    background: #1b414b;
+    border-radius: 24px 24px 0px 0px;
+    max-width: 355px;
+    min-width: 320px;
+  }
+  .footer-third-wrapper {
     display: flex;
-    justify-content: space-between;
     margin: 40px 30px 80px 30px;
+    max-width: 295px;
   }
 
   .footer-social-container {
     display: flex;
-    margin: 40px 133px;
+    padding-bottom: 40px;
   }
   .second-logo {
     color: #fbfbfb;
@@ -29,29 +35,38 @@
     font-weight: 500;
     line-height: normal;
     letter-spacing: -0.03em;
-    /* margin-right: 37px; */
+    max-width: 52px;
+    margin-right: 37px;
   }
 
-  .footer-button-container {
+  .footer-menu-container {
+    display: flex;
+  }
+
+  .footer-menu-list {
     display: flex;
     gap: 4px;
   }
 
-  .subscribe-btn {
+  .footer-menu-list-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
     width: 66px;
     height: 40px;
     border-radius: 8px;
     background: rgba(251, 251, 251, 0.3);
+  }
 
+  .footer-menu-list-link {
     color: #fbfbfb;
-    text-align: center;
     font-size: 9px;
     line-height: 1.3;
     text-transform: uppercase;
   }
 
-  .subscribe-btn:hover,
-  .subscribe-btn:focus {
+  .footer-menu-list-link:hover,
+  .footer-menu-list-link:focus {
     background: #fbfbfb;
     color: #1b414b;
   }
@@ -104,26 +119,32 @@
 /* ============== MOBILE FOOTER STYLES to 787 ============== */
 
 @media screen and (min-width: 376px) {
+  .container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
   .footer-container {
     align-items: baseline;
     display: flex;
     flex-direction: column;
-    max-width: 355px;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 24px 24px 0px 0px;
-    background: #1b414b;
+    min-width: 320px;
   }
-
-  .footer-second-wrapper {
+  .footer-first-wrapper {
+    background: #1b414b;
+    border-radius: 24px 24px 0px 0px;
+    max-width: 355px;
+    min-width: 320px;
+  }
+  .footer-third-wrapper {
     display: flex;
-    justify-content: space-between;
     margin: 40px 30px 80px 30px;
+    max-width: 295px;
   }
 
   .footer-social-container {
     display: flex;
-    margin: 40px 133px;
+    padding-bottom: 40px;
   }
   .second-logo {
     color: #fbfbfb;
@@ -132,29 +153,38 @@
     font-weight: 500;
     line-height: normal;
     letter-spacing: -0.03em;
-    /* margin-right: 37px; */
+    max-width: 52px;
+    margin-right: 37px;
   }
 
-  .footer-button-container {
+  .footer-menu-container {
+    display: flex;
+  }
+
+  .footer-menu-list {
     display: flex;
     gap: 4px;
   }
 
-  .subscribe-btn {
+  .footer-menu-list-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
     width: 66px;
     height: 40px;
     border-radius: 8px;
     background: rgba(251, 251, 251, 0.3);
+  }
 
+  .footer-menu-list-link {
     color: #fbfbfb;
-    text-align: center;
     font-size: 9px;
     line-height: 1.3;
     text-transform: uppercase;
   }
 
-  .subscribe-btn:hover,
-  .subscribe-btn:focus {
+  .footer-menu-list-link:hover,
+  .footer-menu-list-link:focus {
     background: #fbfbfb;
     color: #1b414b;
   }
@@ -162,6 +192,8 @@
   .footer-social-list {
     display: flex;
     gap: 8px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .social-list-icon {
@@ -172,7 +204,6 @@
   .social-list-icon:focus {
     fill: rgba(251, 251, 251, 0.4);
   }
-
   .footer-first-paragraph {
     color: #fbfbfb;
     text-align: center;
@@ -205,31 +236,35 @@
 /* ============== TABLET FOOTER STYLES ============== */
 
 @media screen and (min-width: 768px) {
+  .container {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
   .footer-container {
     align-items: baseline;
     display: flex;
     flex-direction: column;
-    max-width: 736px;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 24px 24px 0px 0px;
-    background: #1b414b;
+    min-width: 320px;
   }
-
   .footer-first-wrapper {
-    display: flex;
-    margin: 50px 48px;
-    width: 100%;
+    background: #1b414b;
+    border-radius: 24px 24px 0px 0px;
+    min-width: 736px;
   }
-
   .footer-second-wrapper {
     display: flex;
+    min-width: 736px;
+    margin: 50px 48px 96px 48px;
+  }
+  .footer-third-wrapper {
     margin: 0;
+    max-width: 461px;
   }
 
   .footer-social-container {
     display: flex;
-    margin: 0;
+    padding-bottom: 0;
   }
   .second-logo {
     color: #fbfbfb;
@@ -238,29 +273,38 @@
     font-weight: 500;
     line-height: normal;
     letter-spacing: -0.03em;
+    max-width: 74px;
     margin-right: 106px;
   }
 
-  .footer-button-container {
+  .footer-menu-container {
+    display: flex;
+  }
+
+  .footer-menu-list {
     display: flex;
     gap: 4px;
   }
 
-  .subscribe-btn {
+  .footer-menu-list-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
     width: 91px;
     height: 40px;
     border-radius: 8px;
     background: rgba(251, 251, 251, 0.3);
+  }
 
+  .footer-menu-list-link {
     color: #fbfbfb;
-    text-align: center;
     font-size: 9px;
     line-height: 1.3;
     text-transform: uppercase;
   }
 
-  .subscribe-btn:hover,
-  .subscribe-btn:focus {
+  .footer-menu-list-link:hover,
+  .footer-menu-list-link:focus {
     background: #fbfbfb;
     color: #1b414b;
   }
@@ -268,6 +312,8 @@
   .footer-social-list {
     display: flex;
     gap: 8px;
+    margin-left: auto;
+    margin-right: auto;
     margin-left: 91px;
   }
 
@@ -305,36 +351,42 @@
   }
 
   .privacy {
-    margin-left: 32px;
+    margin-left: 20px;
   }
 }
 
-/* ============== TABLET DESKTOP STYLES ============== */
+/* ============== DESKTOP STYLES ============== */
 
 @media screen and (min-width: 1280px) {
+  .container {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
   .footer-container {
     align-items: baseline;
     display: flex;
     flex-direction: column;
-    max-width: 1230px;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 24px 24px 0px 0px;
-    background: #1b414b;
+    min-width: 320px;
   }
-
   .footer-first-wrapper {
-    display: flex;
-    margin: 50px 75px 96px 75px;
-    width: 100%;
+    background: #1b414b;
+    border-radius: 24px 24px 0px 0px;
+    min-width: 1230px;
   }
-
   .footer-second-wrapper {
     display: flex;
+    min-width: 1230px;
+    margin: 50px 75px 96px 75px;
+  }
+  .footer-third-wrapper {
+    margin: 0;
+    max-width: 756px;
   }
 
   .footer-social-container {
     display: flex;
+    padding-bottom: 0;
   }
   .second-logo {
     color: #fbfbfb;
@@ -343,29 +395,38 @@
     font-weight: 500;
     line-height: normal;
     letter-spacing: -0.03em;
+    max-width: 74px;
     margin-right: 326px;
   }
 
-  .footer-button-container {
+  .footer-menu-container {
+    display: flex;
+  }
+
+  .footer-menu-list {
     display: flex;
     gap: 4px;
   }
 
-  .subscribe-btn {
+  .footer-menu-list-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
     width: 91px;
     height: 40px;
     border-radius: 8px;
     background: rgba(251, 251, 251, 0.3);
+  }
 
+  .footer-menu-list-link {
     color: #fbfbfb;
-    text-align: center;
     font-size: 9px;
     line-height: 1.3;
     text-transform: uppercase;
   }
 
-  .subscribe-btn:hover,
-  .subscribe-btn:focus {
+  .footer-menu-list-link:hover,
+  .footer-menu-list-link:focus {
     background: #fbfbfb;
     color: #1b414b;
   }
@@ -373,6 +434,8 @@
   .footer-social-list {
     display: flex;
     gap: 8px;
+    margin-left: auto;
+    margin-right: auto;
     margin-left: 311px;
   }
 
@@ -410,6 +473,6 @@
   }
 
   .privacy {
-    margin-left: 32px;
+    margin-left: 20px;
   }
 }
