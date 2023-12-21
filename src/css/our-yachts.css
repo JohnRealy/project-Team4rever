@@ -72,6 +72,16 @@ ol {
   list-style-type: none;
 }
 
+@media screen and (max-width:767px){
+.benetti-yacht {
+    display: none;
+  }
+
+  .belle-anna-yacht {
+    display: none;
+  }
+}
+
 
 @media screen and (min-width: 768px) {
   .container {
@@ -129,12 +139,7 @@ ol {
   margin-left: auto;
   margin-left: auto;
 }
-.benetti-yacht {
-  display: none;
-}
-.belle-anna-yacht {
-  display: none;
-}
+
 .yacht-img-thumb {
   margin-bottom: 32px;
   max-width: 302px;
