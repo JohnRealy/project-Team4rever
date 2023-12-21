@@ -46,7 +46,6 @@ body {
   margin: -1px;
   border: 0;
   padding: 0;
-
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
@@ -80,6 +79,82 @@ ol {
   .belle-anna-yacht {
     display: none;
   }
+
+   .our-yachts-section-list-item {
+    background-color: #fbfbfb;
+    max-width: 334px;
+    padding: 16px 16px 32px 16px;
+    border-radius: 24px;
+    margin: 0 auto;
+    }
+
+    .yacht-parameters-list-item{
+      color: #040306;
+      font-family: Inter;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 1.7;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+      opacity: 0.4;
+    }
+    .yacht-parameters-value-list-item{
+      color: #040306;
+      font-family: Inter;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 1.7;
+      letter-spacing: 0.03em;
+    }
+
+    .yacht-name {
+      color: #1b414b;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 1.18;
+      letter-spacing: -0.045em;
+      text-transform: uppercase;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      max-width: 270px;
+      position: relative;
+      margin-bottom: 16px;
+    }
+
+.yacht-type {
+  color: #040306;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  opacity: 0.4;
+}
+
+.our-yachts-rental-btn{
+  padding: 14px 32px;
+  border-radius: 15px;
+  border: 1px solid rgba(251, 251, 251, 0.35);
+  background: #0E1823;
+  margin-top: 40px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.our-yacht-rent-link{
+color: #FBFBFB;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 1.29;
+letter-spacing: -0.02em;
+}
+   
 }
 
 
@@ -110,11 +185,6 @@ ol {
 
 
 
-
-
-
-
-
 .our-yachts-section-title {
   color: #fbfbfb;
   text-align: center;
@@ -131,14 +201,7 @@ ol {
   display: flex;
   margin: 0 auto;
 }
-.our-yachts-section-list-item {
-  background-color: #fbfbfb;
-  max-width: 334px;
-  padding: 16px 16px 32px 16px;
-  border-radius: 24px;
-  margin: 0 auto;
-  margin-bottom: 40px;
-}
+
 .arrow-yacht {
   margin-left: auto;
   margin-left: auto;
@@ -147,31 +210,11 @@ ol {
 .yacht-img-thumb {
   margin-bottom: 32px;
   max-width: 302px;
-  height: 240px;
+  /* height: 240px; */
   border-radius: 24px;
 }
-.yacht-name {
-  color: #1b414b;
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 1.18;
-  letter-spacing: -0.045em;
-  text-transform: uppercase;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  max-width: 270px;
-  position: relative;
-  margin-bottom: 16px;
-}
-.yacht-type {
-  color: #040306;
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 1.16;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-}
+
+
 .yacht-name::after {
   content: '';
   background-color: rgba(4, 3, 6, 0.1);
