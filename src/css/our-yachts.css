@@ -71,6 +71,10 @@ ol {
   list-style-type: none;
 }
 
+/* @media screen and (min-resolution:192dpi),
+screen and (min-resolution:2dppx),
+screen and (min-device-pixel-ratio:2); */
+
 @media screen and (max-width:767px){
 
 .benetti-yacht {
@@ -136,7 +140,7 @@ ol {
    display: flex;
    flex-direction: row;
    justify-content: space-between;
-   max-width: 270px;
+   /* max-width: 270px; */
    position: relative;
    margin-bottom: 16px;
  }
