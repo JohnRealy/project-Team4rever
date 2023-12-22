@@ -1,12 +1,9 @@
 .header {
-  display: flex;
-  background-color: #FBFBFB;
-  border-radius: 8px;
-  border: 1px solid #FBFBFB;
   margin-top: 20px;
   margin-right: 20px;
   margin-bottom: auto;
   margin-left: 20px;
+  
 }
 
 .header-logo {
@@ -31,6 +28,7 @@
   border: none;
   background-color: transparent;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 
 .header-icon-btn {
@@ -48,12 +46,15 @@
 
 
 .header-div {
+  
+  background-color: #FBFBFB;
+  border-radius: 8px;
+  border: 1px solid #FBFBFB;
   max-width: 335px;
   height: 42px;
-  flex-shrink: 0;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-between; 
   
 }
 
@@ -64,7 +65,7 @@
 @media screen and (min-width: 375px) {
 
   .header-div {
-    position: relative;
+  
     width: 100%;
     max-width: 335px;
     height: 42px;
