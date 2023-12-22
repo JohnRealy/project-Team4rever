@@ -1,14 +1,36 @@
-.hero-background {
-    background-color: blue;
+/*  ============ MOBILE BACKGROUND ON HEADER HERO ========== */
+/* .hero-background {
+  background-color: #0E1823;
+  background-position: center;
+  min-width: 320px;
+ 
+  height: 812px;
+  width: 100%;
+  background-image: linear-gradient(
+    (359deg, rgba(17, 19, 31, 0.80) 42.62%, 
+    rgba(17, 19, 31, 0.31) 84.12%, 
+    rgba(17, 19, 31, 0.00) 99.94%),
+    url(../img/hero/hero-mobile.jpg));
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
 }
 
-.container {
-    min-width: 320px;
-    max-width: 375px;
-}
+@media screen and (min-resolution: 192dpi) and (min-width: 280px),
+  screen and (min-resolution: 2dppx) and (min-width: 280px),
+  screen and (min-device-pixel-ratio: 2) and (min-width: 280px) { 
+  .hero-background {
+    background-image: linear-gradient(
+        359deg,
+        rgba(17, 19, 31, 0.80) 42.62%, 
+        rgba(17, 19, 31, 0.31) 84.12%, 
+        rgba(17, 19, 31, 0.00) 99.94%),
+      url(../img/hero/hero-mobile@2x.jpg);
+  }
+} */
 
+/* ==================== MOBILE HERO ============= */
 .hero-section {
-    background-color: green;
     margin: 0 auto;
     padding: 198px 0;
 }
@@ -34,10 +56,118 @@ font-size: 12px;
 font-style: normal;
 font-weight: 300;
 line-height: 1.17;
-/* letter-spacing: -0.02em; */
 text-align: center;
 max-width: 335px;
 margin-bottom: 38px;
 margin-left: auto;
 margin-right: auto;
+}
+
+.hero-space-link {
+    text-align: center;
+    margin-bottom: 243px;
+}
+
+.hero-link {
+padding: 14px 32px;
+border-radius: 15px;
+color: #FBFBFB;
+background-color:  #1B414B;
+min-width: 141px;
+height: 46px;
+margin-left: auto;
+margin-right: auto;
+display: inline-block;
+transition-property: background-color;
+transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hero-link:hover, .hero-link:focus {
+    color: #1B414B;
+background-color:  #FBFBFB;
+}
+
+
+
+@media screen and (min-width: 768px){
+/*  ============ TABLET BACKGROUND ON HEADER HERO ========== */
+        /* .hero-background {
+    background-image: linear-gradient(
+    (359deg, rgba(17, 19, 31, 0.80) 42.62%, 
+    rgba(17, 19, 31, 0.31) 84.12%, 
+    rgba(17, 19, 31, 0.00) 99.94%),
+    url(../img/hero/hero-tablet.jpg));
+        }
+        
+        @media screen and (min-resolution: 192dpi) and (min-width: 768px),
+        screen and (min-resolution: 2dppx) and (min-width: 768px),
+        screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
+        .hero-background {
+            background-image: linear-gradient(
+                (359deg, rgba(17, 19, 31, 0.80) 42.62%, 
+                rgba(17, 19, 31, 0.31) 84.12%, 
+                rgba(17, 19, 31, 0.00) 99.94%),
+                url(../img/hero/hero-tablet@2x.jpg));
+        }
+        }
+     */
+
+
+/* ==================== TABLET HERO ============= */
+.hero-section {
+    padding:200px 0;
+}
+
+.hero-title {
+    font-size: 70px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    max-width: 704px;
+}
+
+.hero-info {
+font-size: 16px;
+line-height: 1.4;
+max-width: 597px;
+margin-bottom: 48px;
+}
+
+.hero-space-link {
+margin-bottom: 282px;
+}
+
+.hero-link {
+    padding: 16px 40px;
+    min-width: 179px;
+    height: 52px;
+}
+
+}
+
+
+@media screen and (min-width: 1280px){
+/*  ============ DESKTOP BACKGROUND ON HEADER HERO ========== */
+/* .hero-background {
+    background-image: linear-gradient(
+        (359deg, rgba(17, 19, 31, 0.80) 42.62%, 
+        rgba(17, 19, 31, 0.31) 84.12%, 
+        rgba(17, 19, 31, 0.00) 99.94%),
+        url(../img/hero/hero-desktop.jpg));
+} */
+/* ==================== DESKTOP HERO ============= */
+.hero-section {
+    padding:155px 0;
+}
+
+.hero-title {
+    font-size: 80px;
+    max-width: 1001px;
+}
+
+.hero-space-link {
+    margin-bottom: 180px;
+    }
+   
+
 }
