@@ -58,7 +58,7 @@ body {
 }
 
 .container {
-  max-width: 320px;
+  /* max-width: 320px; */
   padding-left: 20px;
   padding-right: 20px;
   margin-left: auto;
@@ -92,6 +92,9 @@ ol {
    max-width: 319px;
    margin: 0 auto;
    margin-bottom: 40px;
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
  }
 
    .our-yachts-section-list-item {
