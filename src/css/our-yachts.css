@@ -196,7 +196,7 @@ letter-spacing: -0.02em;
   bottom: -16px;
 }
 
-.yacht-parameters-container {
+.yacht-name-container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
