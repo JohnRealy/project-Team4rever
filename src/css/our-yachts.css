@@ -188,7 +188,7 @@ letter-spacing: -0.02em;
 .yacht-name::after {
   content: '';
   background-color: rgba(4, 3, 6, 0.1);
-  width: 270px;
+  width: 100%;
   height: 1px;
   border: 1px;
   position: absolute;
@@ -228,6 +228,8 @@ letter-spacing: -0.02em;
     gap: 32px;
   }
 
+  
+
   .our-yachts-section-title{
   color: #FBFBFB;
   text-align: center;
@@ -263,7 +265,7 @@ letter-spacing: -0.02em;
    justify-content: space-between;
     /* max-width: 272px;  */
    position: relative;
-   margin-bottom: 16px;
+   margin-bottom: 32px;
    align-items: center;
  }
 
@@ -317,10 +319,19 @@ letter-spacing: -0.02em;
     margin-right: auto;
     margin-left: auto;
  }
+
+ .yacht-name::after {
+   content: '';
+   background-color: rgba(4, 3, 6, 0.1);
+   width: 100%;
+   height: 1px;
+   border: 1px;
+   position: absolute;
+   left: 0;
+   bottom: -18px;
+ }
   
 }
-
-
 
 
                          /************* desktop *************/
@@ -331,6 +342,33 @@ letter-spacing: -0.02em;
     padding-left: 50px;
     padding-right: 50px;
   }
+
+    .belle-anna-yacht {
+      display: block
+      ;
+    }
+  .our-yachts-section-list{
+    gap: 25px;
+  }
+
+  .our-yachts-section-list-item{
+    width: calc((100% - 50px) / 3);
+  }
+
+    .yacht-name::after {
+      content: '';
+      background-color: rgba(4, 3, 6, 0.1);
+      width: 100%;
+      height: 1px;
+      border: 1px;
+      position: absolute;
+      left: 0;
+      bottom: -18px;
+    }
+    .our-yachts-section-title{
+      margin-left: auto;
+      margin-right: auto;
+    }
 }
 
 
