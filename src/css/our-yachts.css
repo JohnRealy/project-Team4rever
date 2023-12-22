@@ -72,6 +72,7 @@ ol {
 }
 
 @media screen and (max-width:767px){
+
 .benetti-yacht {
     display: none;
   }
@@ -249,6 +250,55 @@ letter-spacing: -0.02em;
 .yacht-img-thumb{
   margin-bottom: 32px;
 }
+
+ .yacht-name {
+   color: #1b414b;
+   font-size: 16px;
+   font-weight: 500;
+   line-height: 1.9;
+   letter-spacing: -0.045em;
+   text-transform: uppercase;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+    /* max-width: 272px;  */
+   position: relative;
+   margin-bottom: 16px;
+   align-items: center;
+ }
+
+ .our-yachts-hidden-text{
+  overflow: hidden;
+  display: none;
+ }
+ .yacht-type{
+  font-size: 13px;
+  opacity: 0.4;
+ }
+ .yacht-name-container{
+  display: flex;
+  justify-content: space-between;
+ }
+ .yacht-parameters-list{
+  color: #040306;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    opacity: 0.4;
+ }
+ .yacht-parameters-value-list{
+  color: #040306;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+ }
   
 }
 
