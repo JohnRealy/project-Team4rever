@@ -165,6 +165,7 @@ img {
 
   .rent-a-yacht-form-input {
     transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    height: 54px;
   }
 
   .rent-a-yacht-form-input:hover {
@@ -174,10 +175,12 @@ img {
 
   .rent-a-yacht-form-textarea-comment {
     transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    height: 116px;
   }
 
   .rent-a-yacht-form-textarea-comment:hover {
     border: 1px solid rgba(251, 251, 251, 0.5);
+    color: #fbfbfb;
   }
 
   .rent-a-yacht-btn:hover,
