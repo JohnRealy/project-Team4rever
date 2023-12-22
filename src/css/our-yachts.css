@@ -299,6 +299,24 @@ letter-spacing: -0.02em;
     line-height: 1.7;
     letter-spacing: 0.03em;
  }
+
+ .our-yachts-rental-btn {
+   border-radius: 15px;
+   border: 1px solid rgba(251, 251, 251, 0.35);
+   display: block;
+   padding: 16px 40px;
+   background-color: transparent;
+   color: #FBFBFB;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 2;
+    letter-spacing: -0.02em;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+ }
   
 }
 
