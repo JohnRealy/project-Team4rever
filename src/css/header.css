@@ -197,7 +197,7 @@
 }
 
 
-.header-nav-menu.hover {
+.header-nav-menu:hover {
   background-color: #1B414B;
 }
 
@@ -256,7 +256,7 @@ display: none;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header-nav-menu.hover {
+.header-nav-menu:hover {
   background-color: #1B414B;
 }
 
