@@ -69,13 +69,13 @@
     color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.rent-a-yacht-img {
+  border-radius: 24px;
+}
+
 .rent-a-yacht-picture {
   margin-right: auto;
   margin-left: auto;
-}
-
-img {
-  border-radius: 24px;
 }
 
 .rent-a-yacht-btn:active {
