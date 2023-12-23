@@ -6,11 +6,16 @@
     padding-top: 40px;
     padding-left: 0;
     padding-right: 0;
+    overflow: hidden;
 }
 
 /*======== Mobile styles ========*/
 
 @media screen and (max-width: 767px) {
+    .about-us-all-text-container {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
 .about-us-head {
         font-size: 28px;
         font-weight: 500;
@@ -41,11 +46,10 @@ color: #040306;
 
 }
 
-
 /*======== Tablet+D styles ========*/
 
 @media screen and (min-width: 768px) {
-    .about-us-section {
+    .about-us-container {
             padding-top: 50px;
         }
     .about-us-head {
@@ -72,6 +76,9 @@ color: #040306;
 /*======== Tablet only styles ========*/
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
+    .about-us-all-text-container {
+    margin-left: 32px;
+    }
     .about-us-head {
             margin-bottom: 50px;
             width: 536px; 
@@ -91,6 +98,8 @@ color: #040306;
     .about-us-all-text-container {
         display: flex;
         justify-content: space-between;
+        margin-left: 50px;
+        margin-right: 50px;
         margin-bottom: 100px;
     }
     .about-us-head {
