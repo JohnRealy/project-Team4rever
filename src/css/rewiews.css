@@ -145,4 +145,7 @@
   .rev-list {
     gap: 26px;
   }
+  .rev-list-desc {
+    letter-spacing: -0.32px;
+  }
 }
