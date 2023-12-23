@@ -1,0 +1,111 @@
+/* ==================== MOBILE HERO ============= */
+.hero-section {
+    margin: 0 auto;
+    padding: 198px 0;
+}
+
+.hero-title {
+color: #FBFBFB;
+font-size: 32px;
+font-style: normal;
+font-weight: 500;
+line-height: 1; 
+letter-spacing: -0.02em;
+text-align: center;
+max-width: 335px;
+margin-bottom: 24px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.hero-info {
+color: rgba(251, 251, 251, 0.70);
+text-align: center;
+font-size: 12px;
+font-style: normal;
+font-weight: 300;
+line-height: 1.17;
+text-align: center;
+max-width: 335px;
+margin-bottom: 38px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.hero-space-link {
+    text-align: center;
+    margin-bottom: 243px;
+}
+
+.hero-link {
+padding: 14px 32px;
+border-radius: 15px;
+color: #FBFBFB;
+background-color:  #1B414B;
+min-width: 141px;
+height: 46px;
+margin-left: auto;
+margin-right: auto;
+display: inline-block;
+transition-property: background-color;
+transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hero-link:hover, .hero-link:focus {
+color: #1B414B;
+background-color:  #FBFBFB;
+}
+
+
+
+@media screen and (min-width: 768px){
+
+/* ==================== TABLET HERO ============= */
+.hero-section {
+    padding:200px 0;
+}
+
+.hero-title {
+    font-size: 70px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    max-width: 704px;
+}
+
+.hero-info {
+font-size: 16px;
+line-height: 1.4;
+max-width: 597px;
+margin-bottom: 48px;
+}
+
+.hero-space-link {
+margin-bottom: 215px;
+}
+
+.hero-link {
+padding: 16px 40px;
+min-width: 179px;
+height: 52px;
+}
+}
+
+
+@media screen and (min-width: 1280px){
+
+/* ==================== DESKTOP HERO ============= */
+.hero-section {
+    padding:155px 0;
+}
+
+.hero-title {
+    font-size: 80px;
+    max-width: 1001px;
+}
+
+.hero-space-link {
+    margin-bottom: 180px;
+}
+   
+}
