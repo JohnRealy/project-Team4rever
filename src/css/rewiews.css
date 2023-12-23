@@ -3,7 +3,6 @@
   flex-direction: column;
   align-items: center;
   gap: 75px;
-  margin-bottom: 80px;
 }
 
 .rev-title-text {
@@ -85,10 +84,6 @@
 }
 
 @media (min-width: 768px) {
-  .rev-main {
-    margin-bottom: 150px;
-  }
-
   .rev-list-center {
     display: flex;
     border-radius: 24px;
@@ -116,10 +111,6 @@
 }
 
 @media (min-width: 1280px) {
-  .rev-main {
-    margin-bottom: 150px;
-  }
-
   .rev-list-right {
     display: flex;
     border-radius: 24px;
