@@ -150,10 +150,10 @@ letter-spacing: -0.02em;
     display: none;
   }
 
-  .section {
+  /* .section {
     padding-top: 150px;
     padding-bottom: 150px;
-  }
+  } */
 
   .our-yachts-section-list{
     display: flex;
