@@ -1,4 +1,4 @@
-.rew-main {
+.rev-main {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -6,14 +6,14 @@
   margin-bottom: 80px;
 }
 
-.rew-title-text {
+.rev-title-text {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 25px;
 }
 
-.rew-title {
+.rev-title {
   color: #fbfbfb;
   text-align: center;
   font-size: 28px;
@@ -22,7 +22,7 @@
   font-weight: 500;
 }
 
-.rew-title-desc {
+.rev-title-desc {
   color: #fbfbfb;
   text-align: center;
   font-size: 12px;
@@ -31,14 +31,14 @@
   opacity: 0.4;
 }
 
-.rew-list {
+.rev-list {
   display: flex;
   flex-direction: column;
   align-items: center;
   flex-direction: row;
 }
 
-.rew-list-left {
+.rev-list-left {
   border-radius: 24px;
   background: #fbfbfb;
   padding: 32px 8px;
@@ -48,35 +48,35 @@
   gap: 24px;
 }
 
-.rew-list-center {
+.rev-list-center {
   display: none;
   padding: 32px 8px;
 }
 
-.rew-list-right {
+.rev-list-right {
   display: none;
   padding: 32px 8px;
 }
 
-.raw-list-text {
+.rav-list-text {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 8px;
 }
 
-.rew-list-desc {
+.rev-list-desc {
   color: rgba(4, 3, 6, 0.4);
   text-align: center;
   font-size: 16px;
   line-height: 1.4em;
 }
 
-.rew-img {
+.rev-img {
   width: 56px;
   height: 56px;
 }
-.rew-list-titels {
+.rev-list-titels {
   color: #040306;
   font-size: 18px;
   font-weight: 500;
@@ -85,11 +85,11 @@
 }
 
 @media (min-width: 768px) {
-  .rew-main {
+  .rev-main {
     margin-bottom: 150px;
   }
 
-  .rew-list-center {
+  .rev-list-center {
     display: flex;
     border-radius: 24px;
     background: #fbfbfb;
@@ -98,29 +98,29 @@
     display: flex;
     gap: 24px;
   }
-  .rew-title {
+  .rev-title {
     width: 704px;
     font-size: 48px;
     line-height: 48px;
     letter-spacing: -0.96px;
   }
-  .rew-title-desc {
+  .rev-title-desc {
     width: 571px;
     font-size: 14px;
     line-height: 18px;
     letter-spacing: -0.28px;
   }
-  .rew-list {
+  .rev-list {
     gap: 32px;
   }
 }
 
 @media (min-width: 1280px) {
-  .rew-main {
+  .rev-main {
     margin-bottom: 150px;
   }
 
-  .rew-list-right {
+  .rev-list-right {
     display: flex;
     border-radius: 24px;
     background: #fbfbfb;
@@ -130,19 +130,19 @@
     gap: 24px;
     padding: 32px 28px;
   }
-  .rew-list-center {
+  .rev-list-center {
     padding: 32px 28px;
   }
-  .rew-list-left {
+  .rev-list-left {
     padding: 32px 28px;
   }
-  .rew-title {
+  .rev-title {
     width: 854px;
     font-size: 48px;
     line-height: 48px;
     letter-spacing: -0.96px;
   }
-  .rew-list {
+  .rev-list {
     gap: 26px;
   }
 }
