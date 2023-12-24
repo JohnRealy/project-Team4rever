@@ -9,8 +9,13 @@
   letter-spacing: -0.42px;
 }
 
+.header-navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
-.header-navigation,
+.header-nav-list,
 .header-social-media {
   display: none;
 }
@@ -70,7 +75,7 @@
   justify-content: space-between;
 }
 
-.header-navigation,
+
 .header-social-media {
   display: none;
 }
@@ -137,7 +142,7 @@
   display: none;
 }
 
-.header-navigation,
+
 .header-social-media {
   display: flex;
 }
@@ -204,7 +209,7 @@
 display: none;
 }
 
-.header-navigation,
+
 .header-social-media {
   display: flex;
 }
@@ -271,7 +276,7 @@ display: none;
 .header-mobile-link {
   display: none;
 }
-.header-navigation,
+
 .header-social-media {
   display: flex;
 }
