@@ -109,11 +109,18 @@
 .header-nav-list {
   display: flex;
   gap: 4px;
+  margin: 0;
+  padding: 0;
 }
 
 .header-social {
   display: flex;
   gap: 8px;
+}
+
+.header-navigation {
+  display: flex;
+ gap: 109px;
 }
 
 .header-nav-menu {
@@ -200,6 +207,10 @@
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.header-navigation {
+  gap: 296px;
+}
+
 
 .header-nav-menu:hover {
   background-color: #1B414B;
@@ -280,5 +291,6 @@ display: none;
 .header-social-media {
   display: flex;
 }
+
 
 }
