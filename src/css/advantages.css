@@ -1,16 +1,12 @@
 .adv-section {
     display: flex;
     justify-content: center;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    background-color: #0E1823;
 }
 
 .adv-container {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    max-width: 335px;
 }
 
 .adv-image-backup {
@@ -20,7 +16,6 @@
 .adv-list-container {
     background-color: #1B414B;
     border-radius: 24px;
-    font-family: 'Inter', sans-serif;
     color: #fbfbfb;
     padding-top: 80px;
     padding-bottom: 40px;
@@ -65,25 +60,19 @@
 
 }
 
-/* ===================================================================== */
-
+/* ========================== TABLET =========================================== */
 
 @media (min-width: 768px) {
-    .container {
-        margin: 0 auto;
-        padding: 0 32px;
-        max-width: 768px;
-    }
 
     .adv-section {
-        padding-top: 75px;
-        padding-bottom: 75px;
         justify-content: center;
     }
 
     .adv-container {
         gap: 32px;
         max-width: 704px;
+        padding-left: 0;
+        padding-right: 0;
     }
 
     .adv-list {
@@ -127,10 +116,9 @@
     }
 }
 
+/* ================= DESKTOP =========================== */
+
 @media (min-width: 1280px) {
-    .container {
-        max-width: 1280px;
-    }
 
     .adv-container {
         flex-direction: row;
