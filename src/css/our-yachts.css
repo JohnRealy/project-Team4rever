@@ -1,75 +1,4 @@
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  margin: 0;
-}
 
-p:last-child {
-  margin-bottom: 0;
-}
-
-ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-a {
-  color: currentColor;
-  text-decoration: none;
-}
-
-button {
-  cursor: pointer;
-}
-
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
-body {
-  background-color: #0e1823;
-  font-family: Inter, sans-serif;
-  color: #1b414b;
-}
-
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
-
-.section {
-  padding-bottom: 80px;
-  padding-top: 80px;
-}
-
-.container {
-  /* max-width: 320px; */
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-ul, 
-li, 
-ol {
-  list-style-type: none;
-}
 
 /* @media screen and (min-resolution:192dpi),
 screen and (min-resolution:2dppx),
@@ -215,20 +144,16 @@ letter-spacing: -0.02em;
                          /******** tablet ********/
 
 @media screen and (min-width: 768px) {
-  .container {
-    max-width: 768px;
-    padding-left: 32px;
-    padding-right: 32px;
-  }
+  
 
   .belle-anna-yacht{
     display: none;
   }
 
-  .section {
+  /* .section {
     padding-top: 150px;
     padding-bottom: 150px;
-  }
+  } */
 
   .our-yachts-section-list{
     display: flex;
@@ -345,11 +270,7 @@ letter-spacing: -0.02em;
                          /************* desktop *************/
 
 @media screen and (min-width: 1280px) {
-  .container {
-    max-width: 1280px;
-    padding-left: 50px;
-    padding-right: 50px;
-  }
+ 
 
     .belle-anna-yacht {
       display: block

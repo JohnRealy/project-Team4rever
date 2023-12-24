@@ -1,8 +1,9 @@
 /* ==================== MOBILE HERO ============= */
 .hero-section {
     margin: 0 auto;
-    padding: 198px 0;
+    padding: 198px 0 0 0;
 }
+
 
 .hero-title {
 color: #FBFBFB;
@@ -63,7 +64,7 @@ background-color:  #FBFBFB;
 
 /* ==================== TABLET HERO ============= */
 .hero-section {
-    padding:200px 0;
+    padding:200px 0 0 0;
 }
 
 .hero-title {
@@ -96,7 +97,7 @@ height: 52px;
 
 /* ==================== DESKTOP HERO ============= */
 .hero-section {
-    padding:155px 0;
+    padding:155px 0 0 0;
 }
 
 .hero-title {
