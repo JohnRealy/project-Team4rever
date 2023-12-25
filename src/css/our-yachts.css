@@ -1,0 +1,306 @@
+
+
+/* @media screen and (min-resolution:192dpi),
+screen and (min-resolution:2dppx),
+screen and (min-device-pixel-ratio:2); */
+
+@media screen and (max-width:767px){
+
+.benetti-yacht {
+    display: none;
+  }
+
+  .belle-anna-yacht {
+    display: none;
+  }
+
+ .our-yachts-section-title {
+   color: #fbfbfb;
+   text-align: center;
+   font-size: 28px;
+   font-weight: 500;
+   line-height: 1;
+   letter-spacing: -0.02em;
+   display: inline-block;
+   max-width: 319px;
+   margin: 0 auto;
+   margin-bottom: 40px;
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
+ }
+
+   .our-yachts-section-list-item {
+    background-color: #fbfbfb;
+    max-width: 334px;
+    padding: 16px 16px 32px 16px;
+    border-radius: 24px;
+    margin: 0 auto;
+    }
+
+ .yacht-parameters-list-item {
+   color: #040306;
+   font-family: Inter;
+   font-size: 14px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 1.7;
+   letter-spacing: 0.03em;
+   text-transform: uppercase;
+   opacity: 0.4;
+ }
+ .yacht-parameters-value-list-item {
+   color: #040306;
+   font-family: Inter;
+   font-size: 14px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 1.7;
+   letter-spacing: 0.03em;
+ }
+
+ .yacht-name {
+   color: #1b414b;
+   font-size: 14px;
+   font-weight: 500;
+   line-height: 1.18;
+   letter-spacing: -0.045em;
+   text-transform: uppercase;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   /* max-width: 270px; */
+   position: relative;
+   margin-bottom: 16px;
+ }
+
+.yacht-type {
+  color: #040306;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  opacity: 0.4;
+}
+
+.our-yachts-rental-btn{
+  padding: 14px 32px;
+  border-radius: 15px;
+  border: 1px solid rgba(251, 251, 251, 0.35);
+  background: #0E1823;
+  margin-top: 40px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.our-yacht-rent-link{
+color: #FBFBFB;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 1.29;
+letter-spacing: -0.02em;
+}
+
+.our-yachts-section-list {
+  display: flex;
+  margin: 0 auto;
+}
+
+.arrow-yacht {
+  margin-left: auto;
+  margin-left: auto;
+}
+
+.yacht-img-thumb {
+  margin-bottom: 32px;
+  max-width: 302px;
+  border-radius: 24px;
+}
+
+.yacht-name::after {
+  content: '';
+  background-color: rgba(4, 3, 6, 0.1);
+  width: 100%;
+  height: 1px;
+  border: 1px;
+  position: absolute;
+  left: 0;
+  bottom: -16px;
+}
+
+.yacht-name-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 16px;
+}
+   
+}
+
+                         /******** tablet ********/
+
+@media screen and (min-width: 768px) {
+  
+
+  .belle-anna-yacht{
+    display: none;
+  }
+
+  /* .section {
+    padding-top: 150px;
+    padding-bottom: 150px;
+  } */
+
+  .our-yachts-section-list{
+    display: flex;
+    gap: 32px;
+  }
+
+  
+  .our-yachts-section-title{
+  color: #FBFBFB;
+  text-align: center;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  max-width: 645px;
+  margin-bottom: 75px;
+  margin-left: auto;
+  margin-right: auto;
+  }
+.our-yachts-section-list-item{
+  background: #FBFBFB;
+  padding: 16px 16px 32px 16px;
+  border-radius: 24px;
+  width: calc((100% - 32px) / 2);
+}
+
+.yacht-img-thumb{
+  margin-bottom: 32px;
+}
+
+ .yacht-name {
+   color: #1b414b;
+   font-size: 16px;
+   font-weight: 500;
+   line-height: 1.9;
+   letter-spacing: -0.045em;
+   text-transform: uppercase;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+    /* max-width: 272px;  */
+   position: relative;
+   margin-bottom: 32px;
+   align-items: center;
+ }
+
+ .our-yachts-hidden-text{
+  overflow: hidden;
+  display: none;
+ }
+ .yacht-type{
+  font-size: 13px;
+  opacity: 0.4;
+ }
+ .yacht-name-container{
+  display: flex;
+  justify-content: space-between;
+ }
+ .yacht-parameters-list{
+  color: #040306;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    opacity: 0.4;
+ }
+ .yacht-parameters-value-list{
+  color: #040306;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+ }
+
+ .our-yachts-rental-btn {
+   border-radius: 15px;
+   border: 1px solid rgba(251, 251, 251, 0.35);
+   display: block;
+   padding: 16px 40px;
+   background-color: transparent;
+   color: #FBFBFB;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 2;
+    letter-spacing: -0.02em;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+ }
+
+ .yacht-name::after {
+   content: '';
+   background-color: rgba(4, 3, 6, 0.1);
+   width: 100%;
+   height: 1px;
+   border: 1px;
+   position: absolute;
+   left: 0;
+   bottom: -18px;
+ }
+  
+}
+
+
+                         /************* desktop *************/
+
+@media screen and (min-width: 1280px) {
+ 
+
+    .belle-anna-yacht {
+      display: block
+      ;
+    }
+  .our-yachts-section-list{
+    gap: 25px;
+  }
+
+  .our-yachts-section-list-item{
+    width: calc((100% - 50px) / 3);
+  }
+
+    .yacht-name::after {
+      content: '';
+      background-color: rgba(4, 3, 6, 0.1);
+      width: 100%;
+      height: 1px;
+      border: 1px;
+      position: absolute;
+      left: 0;
+      bottom: -18px;
+    }
+    .our-yachts-section-title{
+      margin-left: auto;
+      margin-right: auto;
+    }
+}
+
+
+
+
+

@@ -1,0 +1,90 @@
+<section class="rent-a-yacht section" id="yacht-rental">
+  <div class="rent-a-yacht-section-container container">
+    <div class="rent-a-yacht-container">
+      <form class="rent-a-yacht-form">
+        <h2 class="rent-a-yacht-title">Rent a yacht now</h2>
+        <div class="rent-a-yacht-form-container">
+          <label class="rent-a-yacht-form-label" for="user-name">
+            <input
+              class="rent-a-yacht-form-input"
+              id="user-name"
+              name="user-name"
+              type="text"
+              pattern="[a-zA-Zа-яА-ЯіІїЇ' ]+"
+              title="Jet Yachtovych"
+              placeholder="Full Name"
+              required
+            />
+          </label>
+        </div>
+        <div class="rent-a-yacht-form-container">
+          <label class="rent-a-yacht-form-label" for="user-email">
+            <input
+              class="rent-a-yacht-form-input"
+              id="user-email"
+              name="user-email"
+              type="email"
+              title="yacht@gmail.com"
+              placeholder="Email"
+              required
+            />
+          </label>
+        </div>
+        <div class="rent-a-yacht-form-container">
+          <label class="rent-a-yacht-form-label" for="user-phone-number">
+            <input
+              class="rent-a-yacht-form-input"
+              id="user-phone-number"
+              name="user-phone-number"
+              type="tel"
+              pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+              placeholder="Phone number"
+              title="xxx-xxx-xx-xx"
+              required
+            />
+          </label>
+        </div>
+        <div class="rent-a-yacht-form-textarea">
+          <label class="rent-a-yacht-form-label" for="user-comment"></label>
+          <textarea
+            class="rent-a-yacht-form-textarea-comment"
+            id="user-comment"
+            name="user-comment"
+            placeholder="Comment"
+          ></textarea>
+        </div>
+        <button class="rent-a-yacht-btn" type="submit">Send</button>
+      </form>
+    </div>
+    <div class="rent-a-yacht-picture">
+      <picture>
+        <source
+          srcset="
+            ./img/rent-a-yacht/rent-a-yacht-ds.jpg    1x,
+            ./img/rent-a-yacht/rent-a-yacht-ds@2x.jpg 2x
+          "
+          media="(min-width: 1280px)"
+        />
+        <source
+          srcset="
+            ./img/rent-a-yacht/rent-a-yacht-tb.jpg    1x,
+            ./img/rent-a-yacht/rent-a-yacht-tb@2x.jpg 2x
+          "
+          media="(min-width: 768px)"
+        />
+        <source
+          srcset="
+            ./img/rent-a-yacht/rent-a-yacht-mb.jpg    1x,
+            ./img/rent-a-yacht/rent-a-yacht-mb@2x.jpg 2x
+          "
+          media="(max-width: 767px)"
+        />
+        <img
+          class="rent-a-yacht-img"
+          src="./img/rent-a-yacht/rent-a-yacht-mb.jpg"
+          alt="rent a yacht"
+        />
+      </picture>
+    </div>
+  </div>
+</section>
