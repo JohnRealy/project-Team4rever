@@ -2,18 +2,7 @@ body {
   background-color: #0e1823;
   font-family: Inter, sans-serif;
   color: #1b414b;
-  /* background-image: url(../img/hero/hero-mobile.jpg);
-  background-position: top center;
-  background-repeat: no-repeat; */
 }
-
-/* @media screen and (min-resolution: 192dpi) and (max-width: 767px),
-  screen and (min-resolution: 2dppx) and (max-width: 767px),
-  screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
-  body {
-    background-image: url(../img/hero/hero-mobile@2x.jpg);
-  }
-} */
 
 .visually-hidden {
   position: absolute;
