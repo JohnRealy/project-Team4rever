@@ -136,7 +136,6 @@
   }
   .footer-second-wrapper {
     display: flex;
-    min-width: 736px;
     margin: 50px 48px 96px 48px;
   }
   .footer-third-wrapper {
