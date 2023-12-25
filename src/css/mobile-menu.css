@@ -61,7 +61,7 @@
   flex-direction: column;
   gap: 4px;
 }
-.mobile-menu-item-link {
+.mobile-menu-list-item {
   display: flex;
   justify-content: center;
   align-items: center;
