@@ -144,6 +144,11 @@
 /*DECSTOP_1280*/
 
 @media screen and (min-width: 1280px) {
+  .header-container {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
   .header-div {
     width: 100%;
     max-width: 1080px;
