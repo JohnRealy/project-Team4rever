@@ -5,11 +5,18 @@
 
 .about-us-container {
   background-color: #fbfbfb;
-  border-radius: 24px;
+  border-radius: 24px ;
   padding-top: 40px;
   padding-left: 0;
   padding-right: 0;
   overflow: hidden;
+
+}
+.about-us-picture-container {
+  max-width: 1180px;
+  max-height: 470px;
+  background-color: #0E1823;
+  border-radius: 24px;
 }
 
 /*======== Mobile styles ========*/
@@ -43,9 +50,10 @@
     line-height: 1.17;
     letter-spacing: -0.02em;
   }
-  .about-us-picture {
+  /* .about-us-picture {
     border-radius: 24px 24px;
-  }
+  } */
+  
 }
 
 /*======== Tablet+D styles ========*/
