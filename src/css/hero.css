@@ -4,21 +4,6 @@
   padding: 198px 0 243px 0;
 }
 
-.hero-section {
-  background-image: url(../img/hero/hero-mobile.jpg);
-  background-position: top center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-@media screen and (min-resolution: 192dpi) and (max-width: 767px),
-  screen and (min-resolution: 2dppx) and (max-width: 767px),
-  screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
-  .hero-section {
-    background-image: url(../img/hero/hero-mobile@2x.jpg);
-  }
-}
-
 .hero-title {
   color: #fbfbfb;
   font-size: 32px;
