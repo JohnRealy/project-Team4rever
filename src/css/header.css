@@ -1,3 +1,8 @@
+.header {
+  width: 375px;
+  position: fixed;
+  z-index: 999;
+}
 .header-logo {
   color: #1b414b;
   font-size: 14px;
@@ -55,6 +60,9 @@
 /*MOBILE RESPONSIVE*/
 
 @media screen and (min-width: 375px) {
+  .header {
+    width: 375px;
+  }
   .header-div {
     width: 100%;
     max-width: 335px;
@@ -72,6 +80,9 @@
 /*TABLET*/
 
 @media screen and (min-width: 768px) {
+  .header {
+    width: 768px;
+  }
   .header-div {
     width: 100%;
     max-width: 704px;
@@ -140,6 +151,9 @@
 /*DECSTOP_1280*/
 
 @media screen and (min-width: 1280px) {
+  .header {
+    width: 1280px;
+  }
   .header-container {
     padding-left: 100px;
     padding-right: 100px;
