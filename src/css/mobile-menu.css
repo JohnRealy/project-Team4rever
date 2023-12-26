@@ -1,4 +1,4 @@
-.mobile-menu {
+/* .mobile-menu {
   display: flex;
   flex-direction: column;
   padding: 16px 20px 40px 20px;
@@ -27,7 +27,7 @@
   align-items: center;
   padding-left: 20px;
   padding-right: 20px;
-  width: 100%;
+  width: 335px;
   height: 42px;
   border-radius: 8px;
   border: 1px solid #fbfbfb;
@@ -95,4 +95,4 @@
 }
 .socials-icons {
   fill: #fbfbfb;
-}
+} */
