@@ -139,8 +139,8 @@
     justify-content: space-between;
     margin-top: 50px;
     margin-bottom: 96px;
-    padding-left: 32px;
-    padding-right: 32px;
+    padding-left: 48px;
+    padding-right: 48px;
   }
   .footer-third-wrapper {
     margin: 0;
@@ -252,8 +252,8 @@
   }
   .footer-second-wrapper {
     display: flex;
-    padding-left: 48px;
-    padding-right: 48px;
+    padding-left: 75px;
+    padding-right: 75px;
   }
   .footer-third-wrapper {
     margin: 0;
