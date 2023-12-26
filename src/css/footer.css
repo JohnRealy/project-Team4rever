@@ -248,7 +248,6 @@
   }
   .footer-second-wrapper {
     display: flex;
-    min-width: 1230px;
     margin: 50px 75px 96px 75px;
   }
   .footer-third-wrapper {
