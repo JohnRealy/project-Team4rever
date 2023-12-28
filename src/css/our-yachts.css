@@ -279,6 +279,7 @@ height: auto;
     line-height: 1.1;
     letter-spacing: -0.02em;
     height: 100%;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
  }
 
  .yacht-name::after {
@@ -329,13 +330,26 @@ height: auto;
 
     .our-yacht-rent-link{
       padding: 16px 40px;
+      transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 
     .our-yachts-rental-btn{
       padding: 0;
       border: none;
     }
-
+.our-yacht-rent-link:hover,
+.our-yacht-rent-link:focus {
+  background-color: #FBFBFB;
+  color: #1B414B;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  height: 100%;
+ 
+}
  
 }
 
