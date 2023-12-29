@@ -61,15 +61,6 @@
 @media screen and (min-width: 375px) {
   .header-div {
     width: 100%;
-    max-width: 335px;
-    height: 42px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-
-  .header-social-media {
-    display: none;
   }
 }
 
@@ -80,17 +71,12 @@
     width: 100%;
     max-width: 704px;
     height: 48px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     padding-left: 28px;
     padding-right: 28px;
   }
 
   .header-logo {
-    color: #1b414b;
     font-size: 20px;
-    font-weight: 500;
     letter-spacing: -0.6px;
   }
 
@@ -107,7 +93,6 @@
   }
 
   .header-navigation {
-    display: flex;
     gap: 109px;
   }
 
@@ -152,46 +137,17 @@
   .header-div {
     width: 100%;
     max-width: 1080px;
-    height: 48px;
     padding-left: 30px;
     padding-right: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
   }
 
   .header-logo {
-    color: #1b414b;
     font-size: 20px;
-    font-weight: 500;
-    letter-spacing: -0.6px;
-  }
-
-  .header-nav-list {
-    display: flex;
-    gap: 4px;
   }
 
   .header-social {
     display: flex;
     gap: 8px;
-  }
-
-  .header-nav-menu {
-    border-radius: 8px;
-    background: rgba(27, 65, 75, 0.5);
-    width: 91px;
-    height: 40px;
-    color: #fbfbfb;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    font-size: 9px;
-    font-weight: 400;
-    line-height: 130%;
-    text-transform: uppercase;
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   .header-navigation {
@@ -205,10 +161,6 @@
   .header-mobile-link {
     display: none;
   }
-
-  .header-social-media {
-    display: flex;
-  }
 }
 
 /*DECSTOP_1440*/
@@ -217,52 +169,5 @@
   .header-div {
     width: 100%;
     max-width: 1240px;
-    height: 48px;
-  }
-
-  .header-logo {
-    color: #1b414b;
-    font-size: 20px;
-    font-weight: 500;
-    letter-spacing: -0.6px;
-  }
-
-  .header-nav-list {
-    display: flex;
-    gap: 4px;
-  }
-
-  .header-social {
-    display: flex;
-    gap: 8px;
-  }
-
-  .header-nav-menu {
-    border-radius: 8px;
-    background: rgba(27, 65, 75, 0.5);
-    width: 91px;
-    height: 40px;
-    color: #fbfbfb;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    font-size: 9px;
-    font-weight: 400;
-    line-height: 130%;
-    text-transform: uppercase;
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-
-  .header-nav-menu:hover {
-    background-color: #1b414b;
-  }
-
-  .header-mobile-link {
-    display: none;
-  }
-
-  .header-social-media {
-    display: flex;
   }
 }
