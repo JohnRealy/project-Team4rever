@@ -110,10 +110,6 @@
 /* ============== MOBILE FOOTER STYLES <375px============== */
 
 @media screen and (max-width: 374px) {
-  .footer-second-wrapper {
-    padding-left: auto;
-    padding-right: auto;
-  }
   .footer-menu-list-link {
     width: 55px;
   }
